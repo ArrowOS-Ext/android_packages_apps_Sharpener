@@ -39,7 +39,7 @@
 
     <PreferenceCategory
          android:key="extras_category"
-         android:title="@string/quick_settings_lock_screen_category">
+         android:title="@string/extras_title">
 
         <Preference
             android:key="game_settings"
@@ -53,5 +53,7 @@
             android:title="@string/app_volume_title"
             android:summary="@string/app_volume_summary"
             android:defaultValue="false" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

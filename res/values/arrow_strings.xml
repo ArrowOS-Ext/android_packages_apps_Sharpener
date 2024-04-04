@@ -142,4 +142,8 @@
     <string name="app_volume">App Volume</string>
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
 </resources>
