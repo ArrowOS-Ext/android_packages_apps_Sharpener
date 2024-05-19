@@ -31,6 +31,15 @@
         android:summary="@string/network_traffic_summary"
         android:fragment="com.arrow.support.fragments.statusbar.NetworkTrafficSettings"/>
 
+    <com.arrow.support.preferences.SystemSettingSeekBarPreference
+            android:key="max_visible_notification_icons"
+            android:title="@string/max_visible_notification_icons_title"
+            android:summary="@string/max_visible_notification_icons_summary"
+            android:defaultValue="5"
+            android:max="10"
+            settings:min="0"
+            settings:units="" />
+
     <com.arrow.support.preferences.SystemSettingSwitchPreference
             android:key="show_fourg_icon"
             android:title="@string/show_fourg_icon_title"
