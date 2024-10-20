@@ -246,4 +246,8 @@
     <string name="combined_status_bar_signal_icons_summary">Show single combined icon for WiFi and mobile signal.</string>
     <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
 
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+
 </resources>
