@@ -30,4 +30,10 @@
         android:summary="@string/spoofing_title_summary"
         android:fragment="com.arrow.support.fragments.Spoof" />
 
+    <Preference
+        android:key="hide_developer_status_settings"
+        android:title="@string/hide_developer_status_title"
+        android:summary="@string/hide_developer_status_summary"
+        android:fragment="com.android.settings.security.HideDeveloperStatusSettings"
+        settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
 </PreferenceScreen>
