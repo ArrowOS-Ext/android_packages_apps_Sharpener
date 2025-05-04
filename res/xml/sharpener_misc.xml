@@ -38,15 +38,20 @@
         settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
 
     <PreferenceCategory
-         android:key="extras_category"
-         android:title="@string/extras_title">
+        android:key="extras_category"
+        android:title="@string/extras_title">
 
         <Preference
             android:key="game_settings"
             android:title="@string/game_space_title"
-            android:summary="@string/game_space_summary"
-            android:order="-995"
-            settings:controller="com.android.settings.applications.GameSpaceController" />
+            android:summary="@string/game_space_summary">
+
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="io.chaldeaprjkt.gamespace"
+                android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
+        </Preference>
+
 
         <com.arrow.support.preferences.SystemSettingSwitchPreference
             android:key="show_app_volume"
