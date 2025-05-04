@@ -37,11 +37,21 @@
         android:fragment="com.android.settings.security.HideDeveloperStatusSettings"
         settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
 
-    <Preference
-        android:key="game_settings"
-        android:title="@string/game_space_title"
-        android:summary="@string/game_space_summary"
-        android:order="-995"
-        settings:controller="com.android.settings.applications.GameSpaceController" />
+    <PreferenceCategory
+         android:key="extras_category"
+         android:title="@string/quick_settings_lock_screen_category">
+
+        <Preference
+            android:key="game_settings"
+            android:title="@string/game_space_title"
+            android:summary="@string/game_space_summary"
+            android:order="-995"
+            settings:controller="com.android.settings.applications.GameSpaceController" />
+
+        <com.arrow.support.preferences.SystemSettingSwitchPreference
+            android:key="show_app_volume"
+            android:title="@string/app_volume_title"
+            android:summary="@string/app_volume_summary"
+            android:defaultValue="false" />
 
 </PreferenceScreen>

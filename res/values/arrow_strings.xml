@@ -134,4 +134,12 @@
     <string name="quick_settings_lock_screen_category">Lock screen</string>
     <string name="quick_settings_secure_lock_screen_title">Hide on secure lock screen</string>
     <string name="quick_settings_secure_lock_screen_summary">Hide all quick settings in the notification shade while the device is locked</string>
+
+    <!-- Extras -->
+    <string name="extras_title">Extras</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">App Volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
 </resources>
