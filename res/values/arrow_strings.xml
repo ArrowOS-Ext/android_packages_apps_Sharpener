@@ -146,4 +146,8 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+
+    <!-- Bypass charge Tile -->
+    <string name="bypass_charging_tile_label">Bypass Charging</string>
+    <string name="bypass_charging_tile_description">Toggle bypass charging mode</string>
 </resources>
